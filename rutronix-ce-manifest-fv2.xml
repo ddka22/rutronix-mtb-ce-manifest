@@ -1,0 +1,21 @@
+<apps version="2.0">
+  <app keywords="psoc6,rutronix,rdk2,debug,hello world,demo" req_capabilities_v2="[rutdevkit_psoc62]">
+    <name>RutDevKit-PSoC62 Hello World</name>
+    <category>Getting Started</category>
+    <id>rutronix-mtb-example-rdk2-hello-world</id>
+    <uri>https://github.com/ddka22/rutronix-mtb-example-rdk2-hello-world</uri>
+    <description><![CDATA[This code example demonstrates basic components of the Rutronix RDK2 board: LEDs, Buttons and KitProg3 UART for debug.
+    <br><br>For more details, see the <a href="https://github.com/ddka22/rutronix-mtb-example-rdk2-hello-world/blob/master/README.md">README on GitHub</a>.<br><br><a href="https://partner-webpage.com/">Partner</a> is a company that does ABC and XYZ.<br> > <a href="https://docs.partner-doc-page.com/">Get Started</a><br> > <a href="https://partner-webpage.com/contact/">Talk to Sales</a>]]></description>
+    <req_capabilities>psoc6</req_capabilities>
+    <versions>
+	  <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen3">
+        <num>Latest v1.X release</num>
+        <commit>latest-v1.X</commit>
+      </version>
+      <version flow_version="2.0" tools_min_version="2.4.0" tools_max_version="2.4.1" req_capabilities_per_version="bsp_gen3">
+        <num>1.0.0 release</num>
+        <commit>release-v1.0.0</commit>
+      </version>
+    </versions>
+  </app>
+</apps>
