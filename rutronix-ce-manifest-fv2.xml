@@ -1,5 +1,5 @@
 <apps version="2.0">
-  <app keywords="psoc6,rutronix,rdk2,debug,hello world,demo">
+  <app keywords="psoc6,rutronix,rdk2,debug,hello world,demo" req_capabilities_v2="[rutdevkit_psoc62]">
     <name>RutDevKit-PSoC62 Hello World</name>
     <category>Getting Started</category>
     <id>rutronix-mtb-example-rdk2-hello-world</id>
